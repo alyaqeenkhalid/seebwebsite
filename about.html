@@ -11,25 +11,26 @@
 </div>
 </section>
 <!-- 2. Gradient Hero Banner -->
-<section class="relative w-full overflow-hidden bg-gradient-to-br from-[#014260] via-[#08555e] to-[#116e68] text-white">
-<div class="relative max-w-[1440px] mx-auto px-margin py-16 lg:py-20 flex flex-col items-center text-center z-10">
+<section class="relative w-full overflow-hidden text-[#014260]" style="background:radial-gradient(ellipse at 50% 45%,#F3F9F5 0%,#E2EFE7 45%,#BFDDCB 100%);">
+<div class="relative max-w-[1440px] mx-auto px-margin pt-16 pb-28 lg:pt-20 lg:pb-36 flex flex-col items-center text-center z-10">
 <!-- Slogan -->
-<span class="inline-block tracking-widest text-[#c5a880] font-label-md text-label-md uppercase mb-3 font-bold">
+<span class="inline-block tracking-widest text-[#014260] font-label-md text-label-md uppercase mb-3 font-bold">
         من المجتمع للمجتمع
       </span>
 <!-- Main Page Title -->
-<h1 class="font-display-lg text-display-lg font-extrabold text-white mb-4 tracking-tight drop-shadow-sm">
+<h1 class="font-display-lg text-display-lg font-extrabold text-[#014260] mb-4 tracking-tight drop-shadow-sm">
         من نحن
       </h1>
 <!-- Supporting Subtitle -->
-<p class="font-body-lg text-body-lg text-surface-container-high max-w-3xl leading-relaxed opacity-95">
-        نبذة عن مبادرة ولاية السيب الصحية، رؤيتنا، رسالتنا، وهيكلية العمل المجتمعي المؤسسي المشترك نحو مدينة صحية مستدامة.
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl leading-relaxed opacity-95">
+        نبذة عن مبادرة ولاية السيب الصحية، رؤيتنا، رسالتنا، وهيكلية العمل المجتمعي المؤسسي المشترك نحو مشروع ولاية صحية مستدامة.
       </p>
 </div>
-<!-- Soft Organic Curved Bottom Accent (SVG without icons) -->
-<div class="w-full overflow-hidden leading-none z-0 -mb-[1px]">
-<svg class="relative block w-full h-10 lg:h-14 text-background" fill="none" preserveAspectRatio="none" viewBox="0 0 1440 96">
-<path d="M0,32 C320,80 640,0 960,48 C1200,84 1360,40 1440,32 L1440,96 L0,96 Z" fill="currentColor"></path>
+<!-- تموجات سفلية (نفس تصميم الصفحة الرئيسية) -->
+<div aria-hidden="true" class="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-none pointer-events-none select-none z-0">
+<svg class="relative block w-full h-24 md:h-36" preserveAspectRatio="none" viewBox="0 0 1200 120">
+<path d="M0,0 C150,90 350,-40 500,60 C650,160 900,10 1200,40 L1200,120 L0,120 Z" fill="#b79f7d" fill-opacity="0.35"></path>
+<path d="M0,20 C200,100 450,10 650,70 C850,130 1050,40 1200,60 L1200,120 L0,120 Z" fill="#116e68" fill-opacity="0.15"></path>
 </svg>
 </div>
 </section>
@@ -39,10 +40,10 @@
 <!-- Intro Paragraph -->
 <div class="max-w-4xl mx-auto text-center mb-12">
 <p class="font-headline-md text-headline-md text-primary font-bold leading-relaxed mb-4">
-          مدينة صحية ترتقي بجودة الحياة وتضع الإنسان في محور التنمية
+          مشروع ولاية صحية ترتقي بجودة الحياة وتضع الإنسان في محور التنمية
         </p>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-          مشروع مدينة صحية معتمد يهدف إلى توفير بيئة معززة للصحة والتنمية المستدامة من خلال تمكين المجتمع المحلي وتفعيل الشراكة والتعاون المؤسسي المتكامل بين مختلف القطاعات الحكومية والأهلية والخاصة بولاية السيب.
+          مشروع ولاية صحية معتمد يهدف إلى توفير بيئة معززة للصحة والتنمية المستدامة من خلال تمكين المجتمع المحلي وتفعيل الشراكة والتعاون المؤسسي المتكامل بين مختلف القطاعات الحكومية والأهلية والخاصة بولاية السيب.
         </p>
 </div>
 <!-- Vision & Mission Cards -->
@@ -132,8 +133,8 @@
           صدر القرار الإداري بتشكيل اللجنة التنفيذية برئاسة سعادة والي السيب، لضمان التنفيذ العلمي والعملي لأهداف المبادرة
         </p>
 </div>
-<!-- Top Featured Card: رئيس اللجنة -->
-<div class="max-w-4xl mx-auto mb-10">
+<!-- Featured cards: رئيس اللجنة + نائب الرئيس (same size, side by side) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-6">
 <div class="bg-surface-container-lowest rounded-2xl p-8 md:p-10 shadow-sm relative overflow-hidden text-center">
 <div class="absolute top-0 right-0 left-0 h-1.5 bg-gradient-to-r from-[#014260] via-[#c5a880] to-[#116e68]"></div>
 <div class="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-[#f4ebe1] text-[#916b38] font-label-md text-label-md font-bold mb-5 tracking-wide">
@@ -146,175 +147,169 @@
             والي السيب، رئيس لجنة ولاية السيب الصحية
           </p>
 </div>
-</div>
-<!-- 3-Column Grid of 12 Member Cards -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-<!-- 1 -->
-<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
-<div>
-<h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الشيخ المعتصم بن عبدالله بن خلفان السيابي
-            </h4>
-<div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              نائب الرئيس
-            </div>
-</div>
-<p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
+<div class="bg-surface-container-lowest rounded-2xl p-8 md:p-10 shadow-sm relative overflow-hidden text-center">
+<div class="absolute top-0 right-0 left-0 h-1.5 bg-gradient-to-r from-[#014260] via-[#c5a880] to-[#116e68]"></div>
+<div class="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-[#f4ebe1] text-[#916b38] font-label-md text-label-md font-bold mb-5 tracking-wide">
+            نائب الرئيس
+          </div>
+<h3 class="font-headline-lg text-headline-lg font-extrabold text-[#014260] mb-3">
+            الشيخ المعتصم بن عبدالله بن خلفان السيابي
+          </h3>
+<p class="font-section-title text-section-title text-secondary font-bold max-w-xl mx-auto">
             نائب والي السيب
           </p>
 </div>
-<!-- 2 -->
-<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
-<div>
-<h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الدكتورة علياء بنت علي بن عبدالله الحسني
-            </h4>
-<div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              رئيس المكتب التنفيذي
-            </div>
 </div>
-<p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
+<!-- رئيس المكتب التنفيذي (slightly smaller) -->
+<div class="max-w-xl mx-auto mb-10">
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm relative overflow-hidden text-center">
+<div class="absolute top-0 right-0 left-0 h-1.5 bg-gradient-to-r from-[#014260] via-[#c5a880] to-[#116e68]"></div>
+<div class="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-[#f4ebe1] text-[#916b38] font-label-md text-label-md font-bold mb-5 tracking-wide">
+            رئيس المكتب التنفيذي
+          </div>
+<h3 class="font-headline-md text-headline-md font-extrabold text-[#014260] mb-3">
+            الدكتورة علياء بنت علي بن عبدالله الحسني
+          </h3>
+<p class="font-body-md text-body-md text-secondary font-bold max-w-xl mx-auto">
             طبيب استشاري أول، وزارة الصحة
           </p>
+<button onclick="openEmailModal('الدكتورة علياء بنت علي بن عبدالله الحسني','executive.office@seebhealthy.om')" class="mt-5 px-4 py-1.5 rounded-lg border border-[#116e68] text-[#116e68] hover:bg-[#EEF6F2] text-sm font-bold transition-colors cursor-pointer" type="button">للتواصل مع المكتب التنفيذي</button>
 </div>
+</div>
+<!-- Members: 2 rows of 5 -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full mx-auto">
 <!-- 3 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الدكتورة مريم بنت أحمد بن سعيد الهنائية
+              وزارة الصحة
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً
+              الدكتورة مريم بنت أحمد بن سعيد الهنائية
             </div>
 </div>
 <p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            مدير التجمع الصحي الثالث، وزارة الصحة
+            مدير التجمع الصحي الثالث
           </p>
 </div>
 <!-- 4 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              المقدم الركن خالد بن محمد العامري
+              شرطة عمان السلطانية
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً
+              المقدم الركن خالد بن محمد العامري
             </div>
 </div>
 <p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            ضابط مركز شرطة السيب، شرطة عمان السلطانية
+            ضابط مركز شرطة السيب
           </p>
 </div>
 <!-- 5 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الفاضل فهد بن حمد بن مطر الكلباني
+              وزارة التعليم
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً
+              الفاضل فهد بن حمد بن مطر الكلباني
             </div>
 </div>
 <p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            مدير إدارة التعليم بالسيب، وزارة التعليم
+            مدير إدارة التعليم بالسيب
           </p>
 </div>
 <!-- 6 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الفاضل علي بن مسلم بن سالم العامري
+              وزارة التنمية الاجتماعية
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً
+              الفاضل علي بن مسلم بن سالم العامري
             </div>
 </div>
 <p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            مدير مساعد دائرة الشراكة وتنمية المجتمع المدني، وزارة التنمية الاجتماعية
+            مدير مساعد دائرة الشراكة وتنمية المجتمع المدني
           </p>
 </div>
 <!-- 7 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الفاضل يوسف بن عبدالله الوهيبي
+              نادي السيب
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً
+              الفاضل يوسف بن عبدالله الوهيبي
             </div>
 </div>
 <p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            نائب رئيس مجلس إدارة نادي السيب
+            نائب رئيس مجلس الإدارة
           </p>
 </div>
 <!-- 8 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الفاضل محمود بن حمد بن سالم البادي
+              هيئة حماية المستهلك
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً
+              الفاضل محمود بن حمد بن سالم البادي
             </div>
 </div>
-<p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            هيئة حماية المستهلك
-          </p>
 </div>
 <!-- 9 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الفاضل عبدالرحمن بن ناصر الهنائي
+              المجلس البلدي
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً
+              الفاضل عبدالرحمن بن ناصر الهنائي
             </div>
 </div>
 <p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            عضو المجلس البلدي ممثل ولاية السيب
+            ممثل ولاية السيب
           </p>
 </div>
 <!-- 10 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الفاضل موسى بن محمد الصقري
+              المديرية العامة لبلدية مسقط بالسيب
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً
+              الفاضل موسى بن محمد الصقري
             </div>
 </div>
 <p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            نائب مدير عام المديرية العامة لبلدية مسقط بالسيب
+            نائب مدير عام
           </p>
 </div>
 <!-- 11 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الفاضلة فاطمة بنت خميس السلامي
+              جمعية المرأة العمانية بولاية السيب
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً
+              الفاضلة فاطمة بنت خميس السلامي
             </div>
 </div>
-<p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            جمعية المرأة العمانية بولاية السيب
-          </p>
 </div>
 <!-- 12 -->
 <div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between">
 <div>
 <h4 class="font-section-title text-section-title font-bold text-[#0f172a] mb-1">
-              الفاضلة عايدة بنت صالح بن سعيد الرحبي
+              وزارة الصحة
             </h4>
 <div class="font-label-md text-label-md font-bold text-[#bfa175] mb-2">
-              عضواً ومقرراً
+              الفاضلة عايدة بنت صالح بن سعيد الرحبي
             </div>
 </div>
 <p class="font-body-sm text-body-sm text-outline leading-relaxed mt-2 pt-2 bg-surface-container-low/40 rounded px-2.5 py-1.5">
-            رئيسة قسم الصحة المجتمعية بالتجمع الصحي الثالث، وزارة الصحة
+            رئيسة قسم الصحة المجتمعية بالتجمع الصحي الثالث (مقرراً)
           </p>
 </div>
 </div>
@@ -422,24 +417,117 @@
 </a></div>
 </div>
 </section>
-<!-- 6. Call To Action Footer Banner -->
-<section class="w-full bg-gradient-to-r from-[#014260] to-[#076a64] text-white py-14">
-<div class="max-w-[1440px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-6">
-<div class="flex flex-col text-right">
-<h3 class="font-headline-md text-headline-md font-bold mb-2">
-          كن جزءاً من مسيرة السيب الصحية
-        </h3>
-<p class="font-body-md text-body-md text-surface-container-high max-w-xl">
-          نرحب بكافة المبادرات المجتمعية والمساهمات التطوعية الداعمة لأهداف الولاية الصحية ورؤية عُمان ٢٠٤٠.
-        </p>
-</div>
-<div class="flex items-center gap-4 shrink-0">
-<a class="inline-flex items-center justify-center px-6 py-3 bg-[#c5a880] text-primary font-label-md text-label-md rounded-xl hover:bg-[#bfa175] transition-colors shadow-sm" data-path="contact" href="index.html#committees-section">
-          تواصل مع اللجان المختصة
-        </a>
-</div>
-</div>
-</section>
-</div></main><footer class="w-full bg-[#014260] text-white pt-space-xl pb-space-lg" id="footer-section"><div class="w-full max-w-[1280px] mx-auto px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-md"><img alt="ولاية السيب الصحية" class="h-24 w-auto object-contain self-start" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLF49M-jkSVefXtFXGzooTu2zdPljtay4KUoegWQKu4A1N4_bTvizhkApRqC5VAyQynbuLQ3YuyC41EfWLxbtp9WpugDeoWX0lGPtRKWRbDHNM5oPOsfmYNNTKJSIx0r_svZfe6GXdfmo-S8b7fzsijNhdawyuotHQ1Twyi-H1vUwQCKCDPf-NA1Aes0x1GbxP4JC1CTBtQxEg-9kBbgVg1x0nsUIaYC1G9PJ4gboGjomW79IWTvqA8g"><p class="font-body-sm text-body-sm text-[#b5d0e2] leading-relaxed">مبادرة مجتمعية صحية تهدف إلى تعزيز نمط الحياة المستدام والارتقاء بجودة الحياة في ولاية السيب، بالتكامل مع كافة القطاعات والمؤسسات المعنية.</p></div><div class="flex flex-col gap-space-sm"><h3 class="font-section-title text-section-title text-white mb-space-xs">روابط سريعة</h3><ul class="flex flex-col gap-space-xs"><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="home" href="index.html">الرئيسية</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="about-us" href="about.html">من نحن</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="committees" href="index.html#committees-section">اللجان</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="interactive-map" href="index.html#map-section">الخريطة التفاعلية</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="news-and-events" href="index.html#events-section">المركز الإعلامي</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="privacy-policy" href="#">سياسة الخصوصية</a></li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-section-title text-section-title text-white mb-space-xs">بيانات التواصل</h3><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-[#b5d0e2]"><p class="">سلطنة عُمان - محافظة مسقط - ولاية السيب</p><p class="">البريد الإلكتروني: info@seebhealthy.om</p><p class="">هاتف التواصل: ٩٦٨٢٤٤٢٠٠٠٠+</p><p class="">ساعات العمل: الأحد - الخميس | ٧:٣٠ ص - ٢:٣٠ م</p></div></div><div class="flex flex-col gap-space-sm" id="contact-us"><h3 class="font-section-title text-section-title text-white mb-space-xs">الشراكة المجتمعية</h3><p class="font-body-sm text-body-sm text-[#b5d0e2] leading-relaxed">نرحب بمبادرات ومقترحات المواطنين والمقيمين لدعم بيئة صحية ومستدامة في كافة قرى ومناطق ولاية السيب.</p></div></div><div class="pt-space-md border-t border-white/15 flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-[#b5d0e2]"><p class="">جميع الحقوق محفوظة © ولاية السيب الصحية.</p><p class="">سلطنة عُمان - رؤية عُمان ٢٠٤٠</p></div></div></footer>
 
+</div></main><footer class="w-full bg-[#014260] text-white pt-space-xl pb-space-lg" id="footer-section"><div class="w-full max-w-[1280px] mx-auto px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-md"><img alt="ولاية السيب الصحية" class="h-24 w-auto object-contain self-start" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLF49M-jkSVefXtFXGzooTu2zdPljtay4KUoegWQKu4A1N4_bTvizhkApRqC5VAyQynbuLQ3YuyC41EfWLxbtp9WpugDeoWX0lGPtRKWRbDHNM5oPOsfmYNNTKJSIx0r_svZfe6GXdfmo-S8b7fzsijNhdawyuotHQ1Twyi-H1vUwQCKCDPf-NA1Aes0x1GbxP4JC1CTBtQxEg-9kBbgVg1x0nsUIaYC1G9PJ4gboGjomW79IWTvqA8g"><p class="font-body-sm text-body-sm text-[#b5d0e2] leading-relaxed">مبادرة مجتمعية صحية تهدف إلى تعزيز نمط الحياة المستدام والارتقاء بجودة الحياة في ولاية السيب، بالتكامل مع كافة القطاعات والمؤسسات المعنية.</p></div><div class="flex flex-col gap-space-sm"><h3 class="font-section-title text-section-title text-white mb-space-xs">روابط سريعة</h3><ul class="flex flex-col gap-space-xs"><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="home" href="index.html">الرئيسية</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="about-us" href="about.html">من نحن</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="committees" href="index.html#committees-section">اللجان</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="interactive-map" href="index.html#map-section">الخريطة التفاعلية</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="news-and-events" href="index.html#events-section">المركز الإعلامي</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors" data-path="privacy-policy" href="#">سياسة الخصوصية</a></li><li class="font-body-sm text-body-sm"><a class="text-[#b5d0e2] hover:text-[#b79f7d] transition-colors cursor-pointer" href="#" onclick="openTermsModal();return false;">الأحكام والشروط</a></li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-section-title text-section-title text-white mb-space-xs">بيانات التواصل</h3><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-[#b5d0e2]"><p class="">سلطنة عُمان - محافظة مسقط - ولاية السيب</p><p class="">البريد الإلكتروني: info@seebhealthy.om</p><p class="">هاتف التواصل: ٩٦٨٢٤٤٢٠٠٠٠+</p></div></div><div class="flex flex-col gap-space-sm" id="contact-us"><h3 class="font-section-title text-section-title text-white mb-space-xs">الشراكة المجتمعية</h3><p class="font-body-sm text-body-sm text-[#b5d0e2] leading-relaxed">نرحب بالشركات والمؤسسات الراغبة في الرعاية أو الشراكة أو التبرع، وبالأفراد والفرق التطوعية الراغبين في المساهمة في بناء ولاية السيب الصحية.</p><div class="mt-space-xs"><button type="button" onclick="openContribModal('')" class="inline-block px-space-md py-space-xs bg-[#b79f7d] text-[#014260] font-bold font-label-md text-label-md rounded-lg hover:brightness-105 transition-all duration-200 cursor-pointer">ساهم معنا</button></div></div></div><div class="pt-space-md border-t border-white/15 flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-[#b5d0e2]"><p class="">جميع الحقوق محفوظة © ولاية السيب الصحية.</p><p class="">سلطنة عُمان - رؤية عُمان ٢٠٤٠</p></div></div></footer>
+
+<!-- نافذة مراسلة البريد الإلكتروني -->
+<div id="email-modal" class="fixed inset-0 z-50 items-center justify-center p-4 bg-black/60 backdrop-blur-sm" style="display:none;" onclick="if(event.target===this)closeSmallModal('email-modal');">
+  <div class="relative w-full max-w-md bg-white rounded-2xl shadow-2xl p-6 text-right">
+    <button onclick="closeSmallModal('email-modal')" class="absolute top-4 left-4 w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-xl font-bold">×</button>
+    <h3 class="font-headline-md text-headline-md text-primary font-bold">للتواصل مع المكتب التنفيذي</h3>
+    <p id="email-modal-name" class="font-body-sm text-body-sm text-outline mb-5"></p>
+    <div class="flex items-center justify-between gap-3 p-3 rounded-xl bg-[#EEF6F2] border border-[#116e68]/20 mb-4">
+      <span id="email-modal-address" dir="ltr" class="font-bold text-[#014260] text-sm break-all"></span>
+      <button id="email-copy-btn" onclick="copyEmail()" class="flex-shrink-0 px-3 py-1.5 rounded-lg bg-white border border-outline-variant text-sm font-bold text-[#116e68] hover:bg-surface-container-low">نسخ</button>
+    </div>
+    <a id="email-modal-link" href="#" class="block w-full text-center py-3 rounded-lg bg-[#014260] hover:bg-[#116e68] text-white font-bold transition-colors">فتح البريد الإلكتروني</a>
+  </div>
+</div>
+<script>
+  function openSmallModal(id){ document.getElementById(id).style.display='flex'; document.body.style.overflow='hidden'; }
+  function closeSmallModal(id){ document.getElementById(id).style.display='none'; document.body.style.overflow=''; }
+  function openEmailModal(name,email){
+    document.getElementById('email-modal-name').textContent=name;
+    document.getElementById('email-modal-address').textContent=email;
+    document.getElementById('email-modal-link').href='mailto:'+email;
+    document.getElementById('email-copy-btn').textContent='نسخ';
+    openSmallModal('email-modal');
+  }
+  function copyEmail(){
+    const t=document.getElementById('email-modal-address').textContent, b=document.getElementById('email-copy-btn');
+    const done=()=>b.textContent='تم النسخ ✓';
+    if(navigator.clipboard){ navigator.clipboard.writeText(t).then(done,done); } else done();
+  }
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ const m=document.getElementById('email-modal'); if(m&&m.style.display==='flex') closeSmallModal('email-modal'); } });
+</script>
+
+
+<!-- نافذة الأحكام والشروط -->
+<div id="terms-modal" class="fixed inset-0 z-[60] items-center justify-center p-4 bg-black/60 backdrop-blur-sm" style="display:none;" onclick="if(event.target===this)closeTermsModal();">
+  <div class="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto bg-white rounded-2xl shadow-2xl p-6 md:p-8 text-right">
+    <button onclick="closeTermsModal()" class="absolute top-4 left-4 w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-xl font-bold" type="button">×</button>
+    <h3 class="font-headline-md text-headline-md text-primary font-bold mb-1">الأحكام والشروط</h3>
+    <p class="font-body-sm text-body-sm text-outline mb-5">باستخدامك لموقع ولاية السيب الصحية فإنك توافق على ما يلي:</p>
+    <ol class="list-decimal pr-5 flex flex-col gap-3 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      <li>المحتوى المنشور في الموقع لأغراض التوعية والتعريف بأنشطة المبادرة ولجانها، ولا يُعد بديلاً عن الاستشارة الطبية المتخصصة.</li>
+      <li>جميع النصوص والصور والشعارات والتقارير المنشورة مملوكة لولاية السيب الصحية، ولا يجوز إعادة نشرها لأغراض تجارية دون إذن مسبق، مع جواز مشاركتها لأغراض التوعية مع ذكر المصدر.</li>
+      <li>يلتزم المستخدم عند إرسال المقترحات أو الشكاوى بتقديم معلومات صحيحة، وبعدم إرسال أي محتوى مسيء أو مخالف للأنظمة والقوانين المعمول بها في سلطنة عُمان.</li>
+      <li>تُستخدم البيانات الشخصية المرسلة عبر الموقع (مثل الاسم والبريد الإلكتروني) لغرض التواصل ومعالجة المقترحات والشكاوى فقط، ولا تُشارك مع أي جهة خارجية إلا وفق القانون.</li>
+      <li>تبذل المبادرة جهدها لضمان دقة المعلومات وتحديثها، ولا تتحمل المسؤولية عن أي أخطاء غير مقصودة أو عن محتوى المواقع الخارجية المرتبطة.</li>
+      <li>يحق لولاية السيب الصحية تعديل هذه الأحكام والشروط في أي وقت، ويُعد استمرار استخدام الموقع موافقةً على التعديلات.</li>
+    </ol>
+    <button onclick="closeTermsModal()" class="mt-6 w-full py-3 rounded-lg bg-[#014260] hover:bg-[#116e68] text-white font-bold transition-colors" type="button">موافق</button>
+  </div>
+</div>
+<script>
+  function openTermsModal(){ document.getElementById('terms-modal').style.display='flex'; document.body.style.overflow='hidden'; }
+  function closeTermsModal(){ document.getElementById('terms-modal').style.display='none'; document.body.style.overflow=''; }
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ const m=document.getElementById('terms-modal'); if(m&&m.style.display==='flex') closeTermsModal(); } });
+</script>
+
+<!-- نافذة ساهم معنا (تطوع / رعاية / شراكة / تبرع) -->
+<div id="contrib-modal" class="fixed inset-0 z-[55] items-center justify-center p-4 bg-black/60 backdrop-blur-sm" style="display:none;" onclick="if(event.target===this)closeContribModal();">
+  <div class="relative w-full max-w-xl max-h-[90vh] overflow-y-auto bg-white rounded-2xl shadow-2xl p-6 md:p-8 text-right">
+    <button onclick="closeContribModal()" class="absolute top-4 left-4 w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-xl font-bold" type="button">×</button>
+    <div id="contrib-form-wrap">
+      <h3 class="font-headline-md text-headline-md text-primary font-bold mb-1">ساهم معنا</h3>
+      <p class="font-body-sm text-body-sm text-outline mb-5">سواء كنت فرداً يرغب في التطوع، أو شركة أو جهة ترغب في الرعاية أو الشراكة أو التبرع، يسعدنا تواصلك.</p>
+      <!-- TODO (developers): send this form to the backend so it appears in the admin portal under طلبات الموافقة (partner / volunteer) -->
+      <form id="contrib-form" novalidate onsubmit="submitContrib(event)" class="flex flex-col gap-4">
+        <div class="grid grid-cols-2 gap-2" role="radiogroup" aria-label="مقدم الطلب">
+          <label class="cursor-pointer"><input type="radio" name="cf-who" value="volunteer" class="peer sr-only" checked onchange="contribWho()"><span class="block text-center px-3 py-2.5 rounded-lg border border-outline-variant peer-checked:border-[#116e68] peer-checked:bg-[#EEF6F2] peer-checked:text-[#116e68] font-label-md text-label-md">فرد / فريق تطوعي</span></label>
+          <label class="cursor-pointer"><input type="radio" name="cf-who" value="partner" class="peer sr-only" onchange="contribWho()"><span class="block text-center px-3 py-2.5 rounded-lg border border-outline-variant peer-checked:border-[#116e68] peer-checked:bg-[#EEF6F2] peer-checked:text-[#116e68] font-label-md text-label-md">شركة / جهة</span></label>
+        </div>
+        <label class="flex flex-col gap-1"><span id="cf-name-lbl" class="font-label-md text-label-md">الاسم الكامل</span><input id="cf-name" class="w-full rounded-lg border border-outline-variant focus:border-[#116e68] focus:ring-[#116e68] px-3 py-2.5 font-body-md text-body-md bg-white"></label>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <label class="flex flex-col gap-1"><span class="font-label-md text-label-md">البريد الإلكتروني</span><input id="cf-email" type="email" dir="ltr" class="w-full rounded-lg border border-outline-variant focus:border-[#116e68] focus:ring-[#116e68] px-3 py-2.5 font-body-md text-body-md bg-white text-left" placeholder="name@example.com"></label>
+          <label class="flex flex-col gap-1"><span class="font-label-md text-label-md">رقم الهاتف <span class="text-outline font-normal">(اختياري)</span></span><input id="cf-phone" type="tel" dir="ltr" class="w-full rounded-lg border border-outline-variant focus:border-[#116e68] focus:ring-[#116e68] px-3 py-2.5 font-body-md text-body-md bg-white text-left" placeholder="+968"></label>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <label class="flex flex-col gap-1"><span class="font-label-md text-label-md">نوع المساهمة</span><select id="cf-type" class="w-full rounded-lg border border-outline-variant focus:border-[#116e68] focus:ring-[#116e68] px-3 py-2.5 font-body-md text-body-md bg-white"><option>تطوع</option><option>رعاية</option><option>شراكة</option><option>تبرع</option></select></label>
+          <label class="flex flex-col gap-1"><span class="font-label-md text-label-md">اللجنة المعنية</span><select id="cf-committee" class="w-full rounded-lg border border-outline-variant focus:border-[#116e68] focus:ring-[#116e68] px-3 py-2.5 font-body-md text-body-md bg-white"><option value="">غير محدد</option><option value="health">اللجنة الصحية</option><option value="education">لجنة التعليم</option><option value="social">اللجنة الاجتماعية</option><option value="environment">لجنة البيئة والسلامة المهنية</option><option value="media">لجنة الإعلام</option><option value="economic">لجنة الاقتصاد واستقطاب الموارد</option><option value="emergency">لجنة الطوارئ والأزمات</option></select></label>
+        </div>
+        <label class="flex flex-col gap-1"><span class="font-label-md text-label-md">وصف مختصر للمساهمة</span><textarea id="cf-desc" rows="3" class="w-full rounded-lg border border-outline-variant focus:border-[#116e68] focus:ring-[#116e68] px-3 py-2.5 font-body-md text-body-md bg-white" placeholder="كيف ترغب في المساهمة؟"></textarea></label>
+        <label class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant"><input id="cf-agree" type="checkbox" class="mt-1 rounded border-outline-variant text-[#116e68] focus:ring-[#116e68]"><span>أوافق على <a href="#" onclick="openTermsModal();return false;" class="text-[#116e68] underline">الأحكام والشروط</a></span></label>
+        <p id="cf-err" class="hidden p-3 rounded-lg bg-error-container text-on-error-container text-sm font-bold"></p>
+        <button type="submit" class="w-full py-3 rounded-lg bg-[#014260] hover:bg-[#116e68] text-white font-bold transition-colors">إرسال الطلب</button>
+        <p class="text-center font-body-sm text-body-sm text-outline">أو راسلنا على <span dir="ltr" class="font-bold text-[#014260]">info@seebhealthy.om</span></p>
+      </form>
+    </div>
+    <div id="contrib-done" class="hidden text-center py-6">
+      <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-[#EEF6F2] text-[#116e68] flex items-center justify-center text-2xl font-bold">✓</div>
+      <h3 class="font-headline-md text-headline-md text-primary font-bold mb-2">شكراً لك!</h3>
+      <p class="font-body-md text-body-md text-on-surface-variant mb-6">تم استلام طلبك، وسيتواصل معك فريق ولاية السيب الصحية بعد مراجعته.</p>
+      <button onclick="closeContribModal()" class="px-6 py-2.5 rounded-lg bg-[#014260] hover:bg-[#116e68] text-white font-bold transition-colors" type="button">إغلاق</button>
+    </div>
+  </div>
+</div>
+<script>
+  function contribWho(){ const p=document.querySelector('input[name="cf-who"]:checked').value==='partner';
+    document.getElementById('cf-name-lbl').textContent=p?'اسم الشركة / الجهة':'الاسم الكامل';
+    const t=document.getElementById('cf-type'); if(p&&t.value==='تطوع') t.value='رعاية'; if(!p) t.value='تطوع'; }
+  function openContribModal(committee){ const f=document.getElementById('contrib-form'); f.reset(); contribWho();
+    document.getElementById('cf-committee').value=committee||''; document.getElementById('cf-err').classList.add('hidden');
+    document.getElementById('contrib-form-wrap').classList.remove('hidden'); document.getElementById('contrib-done').classList.add('hidden');
+    document.getElementById('contrib-modal').style.display='flex'; document.body.style.overflow='hidden'; }
+  function closeContribModal(){ document.getElementById('contrib-modal').style.display='none'; document.body.style.overflow=''; }
+  function submitContrib(e){ e.preventDefault(); const v=id=>document.getElementById(id).value.trim(), err=document.getElementById('cf-err');
+    const fail=m=>{ err.textContent=m; err.classList.remove('hidden'); };
+    if(!v('cf-name')) return fail('يرجى إدخال الاسم.');
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v('cf-email'))) return fail('يرجى إدخال بريد إلكتروني صحيح.');
+    if(v('cf-desc').length<10) return fail('يرجى كتابة وصف مختصر للمساهمة.');
+    if(!document.getElementById('cf-agree').checked) return fail('يرجى الموافقة على الأحكام والشروط.');
+    document.getElementById('contrib-form-wrap').classList.add('hidden'); document.getElementById('contrib-done').classList.remove('hidden'); }
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ const m=document.getElementById('contrib-modal'); const t=document.getElementById('terms-modal'); if(m&&m.style.display==='flex'&&!(t&&t.style.display==='flex')) closeContribModal(); } }, true);
+</script>
 </body></html>
